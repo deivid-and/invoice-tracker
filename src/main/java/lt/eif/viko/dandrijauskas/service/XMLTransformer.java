@@ -1,6 +1,9 @@
 package lt.eif.viko.dandrijauskas.service;
 
 import jakarta.xml.bind.*;
+import lt.eif.viko.dandrijauskas.model.Client;
+import lt.eif.viko.dandrijauskas.model.Invoice;
+
 import java.io.InputStream;
 import java.io.StringWriter;
 import java.nio.charset.StandardCharsets;
@@ -12,7 +15,7 @@ public class XMLTransformer {
 
     public String transformToXML(Object object) {
         try {
-            JAXBContext jaxbContext = JAXBContext.newInstance(object.getClass());
+            JAXBContext jaxbContext = JAXBContext.newInstance(Client.class, Invoice.class);
             Marshaller marshaller = jaxbContext.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
@@ -20,7 +23,7 @@ public class XMLTransformer {
             marshaller.marshal(object, writer);
             String xmlContent = writer.toString();
 
-            Path outputPath = Paths.get("src/main/resources/xml/vault.xml");
+            Path outputPath = Paths.get("src/main/resources/xml/invoices.xml");
             Files.createDirectories(outputPath.getParent());
             Files.writeString(outputPath, xmlContent, StandardCharsets.UTF_8);
 
