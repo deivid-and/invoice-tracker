@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <client>
-    <clientId>CL-002</clientId>
-    <clientName>Nham Lasther</clientName>
-    <clientType>Individual</clientType>
-    <contactEmail>nham@email.com</contactEmail>
-    <phoneNumber>+37060000001</phoneNumber>
+    <clientId>CL-001</clientId>
+    <clientName>Rand Restaurant</clientName>
+    <clientType>Business</clientType>
+    <contactEmail>rand@business.com</contactEmail>
+    <phoneNumber>+37060000000</phoneNumber>
 </client>

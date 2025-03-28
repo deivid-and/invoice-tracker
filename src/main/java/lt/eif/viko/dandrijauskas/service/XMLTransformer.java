@@ -2,6 +2,7 @@ package lt.eif.viko.dandrijauskas.service;
 
 import jakarta.xml.bind.*;
 import lt.eif.viko.dandrijauskas.model.Client;
+import lt.eif.viko.dandrijauskas.model.ClientList;
 import lt.eif.viko.dandrijauskas.model.Invoice;
 
 import java.io.InputStream;
@@ -15,7 +16,7 @@ public class XMLTransformer {
 
     public String transformToXML(Object object) {
         try {
-            JAXBContext jaxbContext = JAXBContext.newInstance(Client.class, Invoice.class);
+            JAXBContext jaxbContext = JAXBContext.newInstance(ClientList.class, Client.class, Invoice.class);
             Marshaller marshaller = jaxbContext.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
@@ -23,7 +24,7 @@ public class XMLTransformer {
             marshaller.marshal(object, writer);
             String xmlContent = writer.toString();
 
-            Path outputPath = Paths.get("src/main/resources/xml/invoices.xml");
+            Path outputPath = Paths.get("src/main/resources/xml/clients.xml");
             Files.createDirectories(outputPath.getParent());
             Files.writeString(outputPath, xmlContent, StandardCharsets.UTF_8);
 
@@ -39,7 +40,7 @@ public class XMLTransformer {
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
             return (T) unmarshaller.unmarshal(xml);
         } catch (JAXBException e) {
-            throw new RuntimeException("Error during unmarshaling: " + e.getMessage(), e);
+            throw new RuntimeException("Error during unmarshalling: " + e.getMessage(), e);
         }
     }
 }

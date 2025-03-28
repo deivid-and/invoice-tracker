@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clients>
+    <client>
+        <clientId>CL-001</clientId>
+        <clientName>Rand Restaurant</clientName>
+        <clientType>Business</clientType>
+        <contactEmail>rand@business.com</contactEmail>
+        <invoices>
+            <invoice>
+                <clientEmail>rand@business.com</clientEmail>
+                <clientName>Rand Restaurant</clientName>
+                <currency>EUR</currency>
+                <dueDate/>
+                <invoiceNumber>INV-001</invoiceNumber>
+                <issueDate/>
+                <lastUpdated/>
+                <notes>300 deposit was received</notes>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Web design services</serviceDesc>
+                <status>68</status>
+                <totalAmount>1200.0</totalAmount>
+            </invoice>
+            <invoice>
+                <clientEmail>rand@business.com</clientEmail>
+                <clientName>Rand Restaurant</clientName>
+                <currency>EUR</currency>
+                <dueDate/>
+                <invoiceNumber>INV-002</invoiceNumber>
+                <issueDate/>
+                <lastUpdated/>
+                <notes>Final payment due</notes>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Python task automation</serviceDesc>
+                <status>83</status>
+                <totalAmount>500.0</totalAmount>
+            </invoice>
+        </invoices>
+        <phoneNumber>+37060000000</phoneNumber>
+    </client>
+    <client>
+        <clientId>CL-002</clientId>
+        <clientName>Nham Lasther</clientName>
+        <clientType>Individual</clientType>
+        <contactEmail>nham@email.com</contactEmail>
+        <invoices>
+            <invoice>
+                <clientEmail>nham@email.com</clientEmail>
+                <clientName>Nham Lasther</clientName>
+                <currency>EUR</currency>
+                <dueDate/>
+                <invoiceNumber>INV-003</invoiceNumber>
+                <issueDate/>
+                <lastUpdated/>
+                <notes>Paid in full</notes>
+                <paymentDate/>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Landing page setup</serviceDesc>
+                <status>80</status>
+                <totalAmount>200.0</totalAmount>
+            </invoice>
+        </invoices>
+        <phoneNumber>+37060000001</phoneNumber>
+    </client>
+</clients>

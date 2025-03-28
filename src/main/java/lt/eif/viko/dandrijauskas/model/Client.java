@@ -3,7 +3,7 @@ package lt.eif.viko.dandrijauskas.model;
 import jakarta.xml.bind.annotation.*;
 import java.util.List;
 
-@XmlRootElement(name = "client")
+@XmlRootElement(name = "invoices")
 @XmlAccessorType(XmlAccessType.PROPERTY)
 public class Client {
     private String clientId;
@@ -16,7 +16,7 @@ public class Client {
     public Client() {
     }
 
-    public Client(String clientId, String clientName, String contactEmail, String phoneNumber, String clientType, List<Invoice> entries) {
+    public Client(String clientId, String clientName, String contactEmail, String phoneNumber, String clientType, List<Invoice> invoices) {
         this.clientId = clientId;
         this.clientName = clientName;
         this.contactEmail = contactEmail;
