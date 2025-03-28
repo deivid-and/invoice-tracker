@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vault>
+    <encrypted>true</encrypted>
+    <entries>
+        <entry>
+            <password>123abc</password>
+            <score>6.5</score>
+            <site>gmail.com</site>
+            <status>true</status>
+            <username>justin</username>
+        </entry>
+        <entry>
+            <password>tomas1122</password>
+            <score>7.2</score>
+            <site>netflix.com</site>
+            <status>true</status>
+            <username>tomtomas</username>
+        </entry>
+        <entry>
+            <password>secure!</password>
+            <score>9.0</score>
+            <site>protonmail.com</site>
+            <status>false</status>
+            <username>useris</username>
+        </entry>
+        <entry>
+            <password>mymusic</password>
+            <score>6.0</score>
+            <site>spotify.com</site>
+            <status>true</status>
+            <username>vibeon</username>
+        </entry>
+        <entry>
+            <password>funny123</password>
+            <score>5.8</score>
+            <site>reddit.com</site>
+            <status>false</status>
+            <username>scrolllord</username>
+        </entry>
+    </entries>
+    <name>LazyVault</name>
+    <owner>Chill Dev</owner>
+    <tier>66</tier>
+</vault>

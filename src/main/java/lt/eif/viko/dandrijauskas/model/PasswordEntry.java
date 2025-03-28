@@ -1,4 +1,4 @@
-package lt.eif.viko.dandrijauskas;
+package lt.eif.viko.dandrijauskas.model;
 import jakarta.xml.bind.annotation.*;
 
 @XmlRootElement(name = "entry")
