@@ -24,7 +24,7 @@ public class XMLTransformer {
             marshaller.marshal(object, writer);
             String xmlContent = writer.toString();
 
-            Path outputPath = Paths.get("src/main/resources/xml/clients.xml");
+            Path outputPath = Paths.get("src/main/resources/xml/invoices.xml");
             Files.createDirectories(outputPath.getParent());
             Files.writeString(outputPath, xmlContent, StandardCharsets.UTF_8);
 

@@ -20,17 +20,26 @@ public class Invoice {
     private String notes;
     private Float totalAmount;
 
-    private LocalDate issueDate;
-    private LocalDate dueDate;
-    private LocalDate paymentDate;
-    private LocalDateTime lastUpdated;
+//    private LocalDate issueDate;
+//    private LocalDate dueDate;
+//    private LocalDate paymentDate;
+//    private LocalDateTime lastUpdated;
 
-    private Character status;
+    private String issueDate;
+    private String dueDate;
+    private String paymentDate;
+    private String lastUpdated;
+
+    // private Character status;
+    private InvoiceStatus status;
 
     public Invoice() {
     }
 
-    public Invoice(String invoiceNumber, String senderName, String senderEmail, String clientName, String clientEmail, String serviceDesc, String currency, String notes, Float totalAmount, LocalDate issueDate, LocalDate dueDate, LocalDate paymentDate, LocalDateTime lastUpdated, Character status) {
+    public Invoice(String invoiceNumber, String senderName, String senderEmail, String clientName, String clientEmail,
+                   String serviceDesc, String currency, String notes, Float totalAmount,
+                   String issueDate, String dueDate, String paymentDate, String lastUpdated,
+                   InvoiceStatus status) {
         this.invoiceNumber = invoiceNumber;
         this.senderName = senderName;
         this.senderEmail = senderEmail;
@@ -63,43 +72,43 @@ public class Invoice {
         this.senderName = senderName;
     }
 
-    public Character getStatus() {
+    public InvoiceStatus getStatus() {
         return status;
     }
 
-    public void setStatus(Character status) {
+    public void setStatus(InvoiceStatus status) {
         this.status = status;
     }
 
-    public LocalDateTime getLastUpdated() {
+    public String getLastUpdated() {
         return lastUpdated;
     }
 
-    public void setLastUpdated(LocalDateTime lastUpdated) {
+    public void setLastUpdated(String lastUpdated) {
         this.lastUpdated = lastUpdated;
     }
 
-    public LocalDate getPaymentDate() {
+    public String getPaymentDate() {
         return paymentDate;
     }
 
-    public void setPaymentDate(LocalDate paymentDate) {
+    public void setPaymentDate(String paymentDate) {
         this.paymentDate = paymentDate;
     }
 
-    public LocalDate getIssueDate() {
+    public String getIssueDate() {
         return issueDate;
     }
 
-    public void setIssueDate(LocalDate issueDate) {
+    public void setIssueDate(String issueDate) {
         this.issueDate = issueDate;
     }
 
-    public LocalDate getDueDate() {
+    public String getDueDate() {
         return dueDate;
     }
 
-    public void setDueDate(LocalDate dueDate) {
+    public void setDueDate(String dueDate) {
         this.dueDate = dueDate;
     }
 

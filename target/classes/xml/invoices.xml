@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<clients>
+    <client>
+        <clientId>CL-001</clientId>
+        <clientName>Rand Restaurant</clientName>
+        <contactEmail>rand@business.com</contactEmail>
+        <phoneNumber>+37060000000</phoneNumber>
+        <clientType>Business</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>rand@business.com</clientEmail>
+                <clientName>Rand Restaurant</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-04-15</dueDate>
+                <invoiceNumber>INV-001</invoiceNumber>
+                <issueDate>2025-03-01</issueDate>
+                <lastUpdated>2025-03-01T10:00:00</lastUpdated>
+                <notes>300 deposit was received</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Web design services</serviceDesc>
+                <status>DRAFT</status>
+                <totalAmount>1200.0</totalAmount>
+            </invoice>
+            <invoice>
+                <clientEmail>rand@business.com</clientEmail>
+                <clientName>Rand Restaurant</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-03-28</dueDate>
+                <invoiceNumber>INV-002</invoiceNumber>
+                <issueDate>2025-03-01</issueDate>
+                <lastUpdated>2025-03-01T10:00:00</lastUpdated>
+                <notes>Final payment due</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Python task automation</serviceDesc>
+                <status>DRAFT</status>
+                <totalAmount>500.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+    <client>
+        <clientId>CL-002</clientId>
+        <clientName>Nham Lasther</clientName>
+        <contactEmail>nham@email.com</contactEmail>
+        <phoneNumber>+37060000001</phoneNumber>
+        <clientType>Individual</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>nham@email.com</clientEmail>
+                <clientName>Nham Lasther</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-03-30</dueDate>
+                <invoiceNumber>INV-003</invoiceNumber>
+                <issueDate>2025-03-01</issueDate>
+                <lastUpdated>2025-03-01T10:00:00</lastUpdated>
+                <notes>Paid in full</notes>
+                <paymentDate>2025-03-01</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Landing page setup</serviceDesc>
+                <status>PAID</status>
+                <totalAmount>200.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+    <client>
+        <clientId>CL-003</clientId>
+        <clientName>UAB Spalvų Spektras</clientName>
+        <contactEmail>info@spalvosspektras.lt</contactEmail>
+        <phoneNumber>+37061234567</phoneNumber>
+        <clientType>Business</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>info@spalvosspektras.lt</clientEmail>
+                <clientName>UAB Spalvų Spektras</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-04-10</dueDate>
+                <invoiceNumber>INV-004</invoiceNumber>
+                <issueDate>2025-03-15</issueDate>
+                <lastUpdated>2025-03-15T09:20:00</lastUpdated>
+                <notes>Logo preview sent</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Logo design</serviceDesc>
+                <status>SENT</status>
+                <totalAmount>750.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+    <client>
+        <clientId>CL-004</clientId>
+        <clientName>Justina Petrauskaitė</clientName>
+        <contactEmail>justina.p@email.com</contactEmail>
+        <phoneNumber>+37067888999</phoneNumber>
+        <clientType>Individual</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>justina.p@email.com</clientEmail>
+                <clientName>Justina Petrauskaitė</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-04-01</dueDate>
+                <invoiceNumber>INV-005</invoiceNumber>
+                <issueDate>2025-03-05</issueDate>
+                <lastUpdated>2025-03-05T13:30:00</lastUpdated>
+                <notes>Instagram pack</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Social media design</serviceDesc>
+                <status>SENT</status>
+                <totalAmount>180.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+    <client>
+        <clientId>CL-005</clientId>
+        <clientName>MB Technologijų Tiltas</clientName>
+        <contactEmail>kontaktai@techtiltas.lt</contactEmail>
+        <phoneNumber>+37069911111</phoneNumber>
+        <clientType>Business</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>kontaktai@techtiltas.lt</clientEmail>
+                <clientName>MB Technologijų Tiltas</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-04-10</dueDate>
+                <invoiceNumber>INV-006</invoiceNumber>
+                <issueDate>2025-03-10</issueDate>
+                <lastUpdated>2025-03-10T10:45:00</lastUpdated>
+                <notes>1st part of backend dev</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Backend API dev</serviceDesc>
+                <status>SENT</status>
+                <totalAmount>900.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+    <client>
+        <clientId>CL-006</clientId>
+        <clientName>Dovydas Mockus</clientName>
+        <contactEmail>d.mockus@mail.com</contactEmail>
+        <phoneNumber>+37064567890</phoneNumber>
+        <clientType>Individual</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>d.mockus@mail.com</clientEmail>
+                <clientName>Dovydas Mockus</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-04-05</dueDate>
+                <invoiceNumber>INV-007</invoiceNumber>
+                <issueDate>2025-03-06</issueDate>
+                <lastUpdated>2025-03-06T14:00:00</lastUpdated>
+                <notes>Urgent request</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>PDF signature tool</serviceDesc>
+                <status>SENT</status>
+                <totalAmount>300.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+    <client>
+        <clientId>CL-007</clientId>
+        <clientName>UAB Gintaro Kodai</clientName>
+        <contactEmail>admin@gk.lt</contactEmail>
+        <phoneNumber>+37061111222</phoneNumber>
+        <clientType>Business</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>admin@gk.lt</clientEmail>
+                <clientName>UAB Gintaro Kodai</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-03-29</dueDate>
+                <invoiceNumber>INV-008</invoiceNumber>
+                <issueDate>2025-03-03</issueDate>
+                <lastUpdated>2025-03-03T15:45:00</lastUpdated>
+                <notes>Integration done</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Payment API integration</serviceDesc>
+                <status>SENT</status>
+                <totalAmount>1300.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+    <client>
+        <clientId>CL-008</clientId>
+        <clientName>Greta Venskienė</clientName>
+        <contactEmail>greta.v@email.com</contactEmail>
+        <phoneNumber>+37060033445</phoneNumber>
+        <clientType>Individual</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>greta.v@email.com</clientEmail>
+                <clientName>Greta Venskienė</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-04-20</dueDate>
+                <invoiceNumber>INV-009</invoiceNumber>
+                <issueDate>2025-03-18</issueDate>
+                <lastUpdated>2025-03-18T16:20:00</lastUpdated>
+                <notes>Creative brief approved</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Poster design</serviceDesc>
+                <status>SENT</status>
+                <totalAmount>250.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+    <client>
+        <clientId>CL-009</clientId>
+        <clientName>MB Kavos Ratas</clientName>
+        <contactEmail>info@kavosratas.lt</contactEmail>
+        <phoneNumber>+37061299999</phoneNumber>
+        <clientType>Business</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>info@kavosratas.lt</clientEmail>
+                <clientName>MB Kavos Ratas</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-04-07</dueDate>
+                <invoiceNumber>INV-010</invoiceNumber>
+                <issueDate>2025-03-07</issueDate>
+                <lastUpdated>2025-03-07T11:30:00</lastUpdated>
+                <notes>Homepage redesign</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>Website update</serviceDesc>
+                <status>SENT</status>
+                <totalAmount>980.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+    <client>
+        <clientId>CL-010</clientId>
+        <clientName>Erikas Lukauskas</clientName>
+        <contactEmail>erikasluk@email.com</contactEmail>
+        <phoneNumber>+37067812345</phoneNumber>
+        <clientType>Individual</clientType>
+        <invoices>
+            <invoice>
+                <clientEmail>erikasluk@email.com</clientEmail>
+                <clientName>Erikas Lukauskas</clientName>
+                <currency>EUR</currency>
+                <dueDate>2025-04-02</dueDate>
+                <invoiceNumber>INV-011</invoiceNumber>
+                <issueDate>2025-03-09</issueDate>
+                <lastUpdated>2025-03-09T08:55:00</lastUpdated>
+                <notes>Final adjustments made</notes>
+                <paymentDate>unknown</paymentDate>
+                <senderEmail>me@freelancer.com</senderEmail>
+                <senderName>Freelancer Dev</senderName>
+                <serviceDesc>CV layout design</serviceDesc>
+                <status>SENT</status>
+                <totalAmount>150.0</totalAmount>
+            </invoice>
+        </invoices>
+    </client>
+</clients>

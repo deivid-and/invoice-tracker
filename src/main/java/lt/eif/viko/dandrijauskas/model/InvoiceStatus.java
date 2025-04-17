@@ -1,4 +1,9 @@
 package lt.eif.viko.dandrijauskas.model;
 
-public class InvoiceStatus {
+public enum InvoiceStatus {
+    DRAFT,
+    SENT,
+    PAID,
+    OVERDUE,
+    PENDING
 }

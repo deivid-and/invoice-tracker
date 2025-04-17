@@ -1,6 +1,8 @@
 package lt.eif.viko.dandrijauskas.model;
 
 import jakarta.xml.bind.annotation.*;
+
+import java.util.ArrayList;
 import java.util.List;
 
 @XmlRootElement(name = "clients")
@@ -12,7 +14,7 @@ public class ClientList {
     }
 
     public ClientList(List<Client> clients) {
-        this.clients = clients;
+        this.clients = clients = new ArrayList<>();
     }
 
     @XmlElement(name = "client")

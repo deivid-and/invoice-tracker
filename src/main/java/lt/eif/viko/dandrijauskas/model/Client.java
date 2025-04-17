@@ -3,8 +3,11 @@ package lt.eif.viko.dandrijauskas.model;
 import jakarta.xml.bind.annotation.*;
 import java.util.List;
 
-@XmlRootElement(name = "invoices")
+@XmlRootElement(name = "client")
 @XmlAccessorType(XmlAccessType.PROPERTY)
+@XmlType(propOrder = {
+        "clientId", "clientName", "contactEmail", "phoneNumber", "clientType", "invoices"
+})
 public class Client {
     private String clientId;
     private String clientName;

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="clients">
+            <oneOrMore>
+                <element name="client">
+                    <element name="clientId">
+                        <data type="NCName"/>
+                    </element>
+                    <ref name="clientName"/>
+                    <element name="contactEmail">
+                        <text/>
+                    </element>
+                    <element name="phoneNumber">
+                        <data type="integer"/>
+                    </element>
+                    <element name="clientType">
+                        <data type="NCName"/>
+                    </element>
+                    <element name="invoices">
+                        <oneOrMore>
+                            <element name="invoice">
+                                <element name="clientEmail">
+                                    <text/>
+                                </element>
+                                <ref name="clientName"/>
+                                <element name="currency">
+                                    <data type="NCName"/>
+                                </element>
+                                <element name="dueDate">
+                                    <data type="NMTOKEN"/>
+                                </element>
+                                <element name="invoiceNumber">
+                                    <data type="NCName"/>
+                                </element>
+                                <element name="issueDate">
+                                    <data type="NMTOKEN"/>
+                                </element>
+                                <element name="lastUpdated">
+                                    <data type="NMTOKEN"/>
+                                </element>
+                                <element name="notes">
+                                    <text/>
+                                </element>
+                                <optional>
+                                    <element name="paymentDate">
+                                        <data type="NMTOKEN"/>
+                                    </element>
+                                </optional>
+                                <element name="senderEmail">
+                                    <text/>
+                                </element>
+                                <element name="senderName">
+                                    <text/>
+                                </element>
+                                <element name="serviceDesc">
+                                    <text/>
+                                </element>
+                                <element name="status">
+                                    <data type="NCName"/>
+                                </element>
+                                <element name="totalAmount">
+                                    <data type="decimal"/>
+                                </element>
+                            </element>
+                        </oneOrMore>
+                    </element>
+                </element>
+            </oneOrMore>
+        </element>
+    </start>
+    <define name="clientName">
+        <element name="clientName">
+            <text/>
+        </element>
+    </define>
+</grammar>
