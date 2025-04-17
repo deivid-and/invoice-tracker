@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<client>
-    <clientId>CL-001</clientId>
-    <clientName>Rand Restaurant</clientName>
-    <clientType>Business</clientType>
-    <contactEmail>rand@business.com</contactEmail>
-    <phoneNumber>+37060000000</phoneNumber>
-</client>
